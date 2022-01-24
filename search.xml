@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>股息率</title>
-      <link href="/2022/01/21/%E8%82%A1%E6%81%AF%E7%8E%87/"/>
-      <url>/2022/01/21/%E8%82%A1%E6%81%AF%E7%8E%87/</url>
+      <title>投资感悟2022</title>
+      <link href="/2022/01/24/%E6%8A%95%E8%B5%84%E6%84%9F%E6%82%9F2022/"/>
+      <url>/2022/01/24/%E6%8A%95%E8%B5%84%E6%84%9F%E6%82%9F2022/</url>
       
-        <content type="html"><![CDATA[<p>分红、股息、估值之间的关系</p><pre><code>这些都是在股价波动之外的知识，除了股价波动的技术分析之外，这些决定股价波动的因素更应该了解。</code></pre><ul><li><p>分红<br>  上市公司从上一年的税后净利润中拿出部分现金回馈给大股东，这种形式被称作分红。</p></li><li><p>分红率<br>  比如2021年上市公司的税后净利润是1000万元，公司拿出500万元现金回馈股东，那么分红率就是500/1000=50%</p></li><li><p>股息<br>   股东通过现金分红得到的收益就叫做股息，股息就是把分红收益分摊到具体的一定数量的股票上，一般是每股分红多少。一般上市公司有固定的模式，比如每10股分红1元，  那么计算下来，每股就是0.1元</p></li><li><p>股息率<br>  股息率=每股分红收益/当前股价</p></li><li><p>估值</p></li><li><p>十年期国债收益率（中国市场的无风险收益率）</p></li></ul><p>​           除了股价波动的差价之外，股息率大于十年期国债收益率也是不错的标的</p>]]></content>
+        <content type="html"><![CDATA[<ul><li><p>关于投资的理念(2022年初)</p><ul><li>平时要做好现金流的储备，在最困难的时候购买优质企业的股权，长周期持有，大波段操作。在估值已经兑现未来利润的时候卖出，正确把成本降到很低的价格，甚至可以做到0成本或者负值。</li><li>买在无人问津时，卖在人声鼎沸时。这也许就是《邓普顿教你逆向投资》一书的精华。</li></ul></li><li><p>关于投资回报的预期</p><ul><li>如果你的预期投资回报收益在6%左右，可以选择固收+或者债券型基金</li><li>如果预期收益率设定在8%-15%，宽基指数是不错的选择</li><li>如果你的预期收益率大于20%，那么就只能去投资股票了，安全起见，可以选择朝阳行业里多个行业的不同优质股票，建立投资组合，长期持有，大波段操作</li></ul></li><li><p>关于估值和财务指标</p><ul><li> 低估值和高股息率相辅相成，低估往往意味着高息。在此基础上，关注企业的ROE和自由现金流这两个指标，企业长期优良的ROE往往代表企业发展经营稳定、盈利能力强，而自由现金流可以验证企业是否真正赚到钱了，比如有的企业，ROE和利润表现都不错，但仔细一看自由现金流为负，再一看每年都大规模投入了资金更新、维修设备，这样的企业商业模式是较差的。按照这样的选股思路筛选个股，最后剩下的符合标准的公司其实已经不多了，此刻只需要耐心等待“击球”机会即可。另外长期稳定的派息记录也能帮助你有效避开垃圾股和伪成长股。</li></ul></li><li><p>市值 =  估值 *  净利润</p><ul><li>根据企业的净利润增长率，计算未来几年的利润，再根据增长率对应的估值区间，就可以计算出未来几年的大体市值，比较当前的市值，基本可以确定是否又盈利空间。</li></ul></li></ul><p>​      </p>]]></content>
       
       
       <categories>
@@ -30,12 +30,37 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2022/01/21/hello-world/"/>
-      <url>/2022/01/21/hello-world/</url>
+      <link href="/2022/01/24/hello-world/"/>
+      <url>/2022/01/24/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>股息率</title>
+      <link href="/2022/01/21/%E8%82%A1%E6%81%AF%E7%8E%87/"/>
+      <url>/2022/01/21/%E8%82%A1%E6%81%AF%E7%8E%87/</url>
+      
+        <content type="html"><![CDATA[<p>分红、股息、估值之间的关系</p><pre><code>这些都是在股价波动之外的知识，除了股价波动的技术分析之外，这些决定股价波动的因素更应该了解。</code></pre><ul><li><p>分红<br>  上市公司从上一年的税后净利润中拿出部分现金回馈给大股东，这种形式被称作分红。</p></li><li><p>分红率<br>  比如2021年上市公司的税后净利润是1000万元，公司拿出500万元现金回馈股东，那么分红率就是500/1000=50%</p></li><li><p>股息<br>   股东通过现金分红得到的收益就叫做股息，股息就是把分红收益分摊到具体的一定数量的股票上，一般是每股分红多少。一般上市公司有固定的模式，比如每10股分红1元，  那么计算下来，每股就是0.1元</p></li><li><p>股息率<br>  股息率=每股分红收益/当前股价</p></li><li><p>估值</p></li><li><p>十年期国债收益率（中国市场的无风险收益率）</p></li></ul><p>​           除了股价波动的差价之外，股息率大于十年期国债收益率也是不错的标的</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> stock </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> stock </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1221,7 +1246,7 @@
       <link href="/2021/06/08/Hexo%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2%E5%88%B0coding/"/>
       <url>/2021/06/08/Hexo%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2%E5%88%B0coding/</url>
       
-        <content type="html"><![CDATA[<h2 id="把Hexo生成的静态网页部署到coding上"><a href="#把Hexo生成的静态网页部署到coding上" class="headerlink" title="把Hexo生成的静态网页部署到coding上"></a>把Hexo生成的静态网页部署到coding上</h2><p>因为github的网速问题，可以尝试把hexo生成的静态博客文件发布到coding上。</p><ul><li>首先注册coding账号(<a href="https://coding.net/">CODING - 一站式软件研发管理平台</a>)，并绑定腾讯云（需要实名认证）</li><li>新建5人以下团队的项目</li><li>新建代码仓库(选择devops)，可以选择添加readme文件</li><li>点击代码仓库中，在左下角显示项目设置，再选择功能开关，如果不熟悉，可以打开所有功能开关，持续集成和持续部署要选择。</li><li>在本地的git bash 命令窗口下，使用clip &lt; id_ed25519.pub ，把公钥的内容输出到剪贴板，在coding的个人账户设置里，添加公钥内容并保存。使用ssh -T  <a href="mailto:&#x67;&#105;&#116;&#64;&#x63;&#x6f;&#100;&#105;&#x6e;&#103;&#x2e;&#x6e;&#x65;&#116;">&#x67;&#105;&#116;&#64;&#x63;&#x6f;&#100;&#105;&#x6e;&#103;&#x2e;&#x6e;&#x65;&#116;</a>  测试ssh协议链接。</li><li> 编辑hexo博客项目根目录下的_config.yml文件，把deployer段的内容修改下面的内容：</li></ul><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@e.coding.net:username/myblog/hexoblog.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span>  </span><br><span class="line"></span><br></pre></td></tr></table></figure><ul><li>hexo g -d   发布到coding腾讯云空间</li><li>部署成功后，设置自定义以域名</li></ul><h3 id="部署在coding的静态网站的收费标准"><a href="#部署在coding的静态网站的收费标准" class="headerlink" title="部署在coding的静态网站的收费标准"></a>部署在coding的静态网站的收费标准</h3><ul><li>有6个月的免费试用期，后期应该是要收取费用的，具体可以查看coding 官方的资费明细</li></ul><h3 id="自动部署"><a href="#自动部署" class="headerlink" title="自动部署"></a>自动部署</h3><p>也可以实现自动部署博客到coding</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="把Hexo生成的静态网页部署到coding上"><a href="#把Hexo生成的静态网页部署到coding上" class="headerlink" title="把Hexo生成的静态网页部署到coding上"></a>把Hexo生成的静态网页部署到coding上</h2><p>因为github的网速问题，可以尝试把hexo生成的静态博客文件发布到coding上。</p><ul><li>首先注册coding账号(<a href="https://coding.net/">CODING - 一站式软件研发管理平台</a>)，并绑定腾讯云（需要实名认证）</li><li>新建5人以下团队的项目</li><li>新建代码仓库(选择devops)，可以选择添加readme文件</li><li>点击代码仓库中，在左下角显示项目设置，再选择功能开关，如果不熟悉，可以打开所有功能开关，持续集成和持续部署要选择。</li><li>在本地的git bash 命令窗口下，使用clip &lt; id_ed25519.pub ，把公钥的内容输出到剪贴板，在coding的个人账户设置里，添加公钥内容并保存。使用ssh -T  <a href="mailto:&#x67;&#105;&#x74;&#64;&#x63;&#111;&#x64;&#105;&#110;&#103;&#46;&#x6e;&#101;&#x74;">&#x67;&#105;&#x74;&#64;&#x63;&#111;&#x64;&#105;&#110;&#103;&#46;&#x6e;&#101;&#x74;</a>  测试ssh协议链接。</li><li> 编辑hexo博客项目根目录下的_config.yml文件，把deployer段的内容修改下面的内容：</li></ul><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@e.coding.net:username/myblog/hexoblog.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span>  </span><br><span class="line"></span><br></pre></td></tr></table></figure><ul><li>hexo g -d   发布到coding腾讯云空间</li><li>部署成功后，设置自定义以域名</li></ul><h3 id="部署在coding的静态网站的收费标准"><a href="#部署在coding的静态网站的收费标准" class="headerlink" title="部署在coding的静态网站的收费标准"></a>部署在coding的静态网站的收费标准</h3><ul><li>有6个月的免费试用期，后期应该是要收取费用的，具体可以查看coding 官方的资费明细</li></ul><h3 id="自动部署"><a href="#自动部署" class="headerlink" title="自动部署"></a>自动部署</h3><p>也可以实现自动部署博客到coding</p>]]></content>
       
       
       
@@ -1291,7 +1316,7 @@
       <link href="/2021/05/28/git%E5%91%BD%E4%BB%A4%E5%85%A5%E9%97%A8/"/>
       <url>/2021/05/28/git%E5%91%BD%E4%BB%A4%E5%85%A5%E9%97%A8/</url>
       
-        <content type="html"><![CDATA[<ul><li><p>新建一个目录 branch_demo</p></li><li><p>cd branch_demo</p></li><li><p>git init </p></li><li><p>git status </p></li><li><p>git checkout -b branch-name</p></li><li><p>echo “git branch start” &gt;&gt; readme.md</p></li><li><p>git add .</p></li><li><p>git commit -m “git branch start”</p></li><li><p>git remote add origin <a href="https://github.com/usermame.github.io.git">https://github.com/usermame.github.io.git</a>    or    git remote add origin <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#x68;&#117;&#x62;&#46;&#x63;&#111;&#109;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#x68;&#117;&#x62;&#46;&#x63;&#111;&#109;</a>:username.github.io.git</p></li><li><p>git push -u origin    —-新建分支第一次推送到远程时，需要-u参数指明上游，或者使用–set-upstream,以后再推送就不需要-u参数了</p></li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li><p>新建一个目录 branch_demo</p></li><li><p>cd branch_demo</p></li><li><p>git init </p></li><li><p>git status </p></li><li><p>git checkout -b branch-name</p></li><li><p>echo “git branch start” &gt;&gt; readme.md</p></li><li><p>git add .</p></li><li><p>git commit -m “git branch start”</p></li><li><p>git remote add origin <a href="https://github.com/usermame.github.io.git">https://github.com/usermame.github.io.git</a>    or    git remote add origin <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;</a>:username.github.io.git</p></li><li><p>git push -u origin    —-新建分支第一次推送到远程时，需要-u参数指明上游，或者使用–set-upstream,以后再推送就不需要-u参数了</p></li></ul>]]></content>
       
       
       <categories>
