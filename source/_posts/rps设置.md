@@ -24,7 +24,7 @@ categories: rps
 
   通达信软件，Control+F，技术指标公式—其他类型
 
-  ![img](/images/公式管理器.jpg)
+  ![img](/images/通达信-公式管理器.jpg)
 
   点击上图中的新建，进入下图:
 
