@@ -9,7 +9,7 @@ categories: rps
 
 * 新建一个"上市一年以上"的自定义板块，并使用选股公式将上市一年以上的股票选入该板块
   通达信软件，Control+F，技术指标公式—其他类型
-  ![img](/images/公式管理器.jpg)
+  ![img](/images/通达信-公式管理器.jpg)
 
   ![img](/images/rps_一年以上_1.jpg)
 
