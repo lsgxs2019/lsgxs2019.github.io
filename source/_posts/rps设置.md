@@ -12,13 +12,13 @@ categories: rps
   ![img](/images/通达信-公式管理器.jpg)
 
   ![img](/images/rps_一年以上_1.jpg)
-
-  ![img](/images/rps_一年以上_2.jpg)
-
   ```html
   BARSCOUNT(C)>N; N为参数，一般设为250
   ```
   
+
+  ![img](/images/rps_一年以上_2.jpg)
+
 * 新建一个计算股票涨跌幅的技术指标公式，命名为EXTRS
 
 
