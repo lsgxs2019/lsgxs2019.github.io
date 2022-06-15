@@ -13,12 +13,12 @@ categories: office技巧
 
 * 选中表格中的标题行，选择"标题行重复"可以实现在每页显示和打印标题行
 
-  ![img](/images\word-标题行重复.png)
+  ![img](/images/word-标题行重复.png)
 
 * 根据需要设置好word中表格的行高
 
 * 根据自己的需要设置上下边距，直到刚好每页显示一行数据（除了标题行）
 
-  ![img](/images\word-设置上下边距.png)
+  ![img](/images/word-设置上下边距.png)
 
 [备注]：这个方法在wps office中同样适用。
