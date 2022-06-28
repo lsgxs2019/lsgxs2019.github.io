@@ -2,7 +2,8 @@
 title: 安装hugo
 date: 2022-06-28 15:29:58
 tags: hugo
-categories: /2022/06/28/安装hugo/hugo.jpg 
+categories: hugo 
+cover: /2022/06/28/安装hugo/hugo.jpg 
 ---
 
 #### 安装配置hugo 
