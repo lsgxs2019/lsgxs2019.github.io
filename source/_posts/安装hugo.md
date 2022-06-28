@@ -117,3 +117,20 @@ Directory of C:\hugo\sites\example.com
                7 Dir(s)   6,273,331,200 bytes free
 ```
 
+简单总结一下
+
+```
+hugo version                         //测试安装结果，这些命令在cmd命令窗口下完成。暂时还没有用到git
+hugo new site quickstart       //create a new site
+
+cd quickstart 
+git init 
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git  themes/ananke
+echo theme = \"ananke\" >> config.toml    //或者直接编辑config.toml文件，添加theme = "ananke"即可指定theme
+
+hugo new posts/my-first-post.md   //新建一个markdown文件
+
+hugo server -D    //start the hugo server，注意这里的字母D要大写
+http://localhost:1313    //在本地服务器打开你的第一个静态网站
+```
+
