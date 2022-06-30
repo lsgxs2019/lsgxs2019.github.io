@@ -273,8 +273,8 @@ widgets:
         # Names and URLs of the sites
         links:
             tiddlywiki: 'https://tiddlywiki.com'
-            mytiddlywiki: 'https://tiddlywiki.github.io'
-            tyddlywiki2021: 'https://tiddlywiki.github.io'
+            mytiddlywiki: 'https://tiddlywiki2021.github.io'
+            
             
         
     # Categories widget configurations
