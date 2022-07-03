@@ -27,9 +27,9 @@ categories: tiddlywiki
 
   > 如果把多个tiddler直接添加在tiddlywiki右侧面板的目录树中呢?
   >
-  > 在建立好面板右侧的目录树之后，根据需要设置好tiddler的tag属性为上级tiddler的title就可以实现目录和子目录结构的taging 
+  > 在建立好面板右侧的目录树之后，根据需要设置好tiddler的tag属性为上级tiddler的title就可以实现目录和子目录结构的tagging 
   >
   > 也就是说，在tiddlywiki中，这种tagging方式可以有多种形式来显示，可以单独通过<<list-lingks "[tag[tagnmae]sort[title]]">>显示下一个tiddler里，也可以以目录树的形式显示。
 
-  > 如果忘记了这种tagging技术的的组织和显示方式，可以打开某一个tiddler并处于编辑状态，就可以看到源代码的书写方式。
+  > 如果忘记了这种tagging技术的的组织和显示方式，可以打开某一个tiddler并处于编辑状态，查看源代码的书写方式。
 
