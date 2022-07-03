@@ -81,4 +81,6 @@ jobs:
 >
 > hexo generate
 >
-> 最后还是执行了一系列git命令，deploy to github pages,把生成的站点文件推送到github pages下的master 分支。
+> 最后还是执行了一系列git命令，deploy to github pages,把生成的站点文件推送到github pages下的master 分支，这里的指定的是master分支，也可以自己指定github仓库项目里source branch:
+
+![img](/images/github_pages_source_branch.png)
