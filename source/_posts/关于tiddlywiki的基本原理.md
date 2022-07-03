@@ -30,4 +30,4 @@ cover: /2022/07/03/关于tiddlywiki的基本原理/tiddlywiki.png
 
     最后一个text属性就不用说了，就是这个tiddler的内容。tiddlywiki的最核心的就是tittle和tag属性，以及这两个属性的组织结构。tittle就是当前这个tiddler的标志，而它的tag属性就是他的上一级节点，或者容器。一个tiddle的tittle在你的tiddlywiki库中具有唯一性，是代表这个tiddler，把这个tittle作为另外一个或者多个tiddler的tag，就实现了tiddler之间包含和被包含的关系，正式这种递归的手法实现了无限延展性，实现了目录树。
 
-    一句话总结： 想要包含若干个子目录，直接把这个tiddler的tittle作为其他tiddler的tag就实现了目录层级的绑定。这个有点哲学的方式，想要别人成为你的人，那就把别人带上你的标签。
+    一句话总结： 想要包含若干个子目录，直接把这个tiddler的tittle作为其他tiddler的tag就实现了目录层级的绑定，这个有点哲学的方式，比如你要宣传某种思想。
