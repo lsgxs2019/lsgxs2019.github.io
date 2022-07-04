@@ -34,6 +34,6 @@ categories: tiddlywiki
   > 如果忘记了这种tagging技术的的组织和显示方式，可以打开某一个tiddler并处于编辑状态，查看源代码的书写方式。
 
 ```如何在一个tiddler下建立子项
-一句话：把父目录的tittle作为子目录的tag就创建了目录树；或者说把一个tiddler的tittle作为其他tiddler的tag就建立了包容关系
+一句话：把父目录的tittle作为子目录的tag就创建了目录树；或者说把一个tiddler的tittle作为其他tiddler的tag就建立了包容关系。实际上tiddlywiki的工具栏上有一个按钮，创建子tiddler这个按钮，按下这个按钮之后，就会以当前的tiddler作为模版，把这个tiddler的tittle赋值到系建立的tiddlyer的tag，如此就形成了包容关系
 ```
 
