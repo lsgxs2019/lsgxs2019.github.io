@@ -106,7 +106,11 @@ git clone git@hugo:username/username.github.io.git
 
 ```
 
-######  修改本地仓库的用户名和邮箱
+######  进入到本地项目的目录，修改本地仓库的用户名和邮箱
+
+cd  username.github.io
+
+在git bash 命令窗口下执行下面两条命令：
 
 git config user.name   username
 
