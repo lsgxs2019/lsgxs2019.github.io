@@ -125,3 +125,29 @@ git config user.email   yourmailbox
 >git push origin
 >
 >
+
+在本地删除项目的目录之后，再次使用git clone git@hexo下载项目到本地之后，需要再次使用下面两条语句设置用户信息：
+
+> git config user.name lsxxxxx
+>
+> git config user.email xxxxx@xxx
+
+否则在git commit -m "xxxx"时会提示不能识别的用户：
+
+![img](/images/单个项目仓库的用户信息配置.jpg)
+
+> 通过以上流程，可以实现在一台电脑上使用git 管理多个github账号。如果在单位也要同步实现同样的功能，按照上面的流程走
+>
+> ssh-keygen -t rsa 分别生成多个账户对那个的密钥对，文件名保持和家里的.ssh/目录下的文件名相同，然后复制家里的密钥文件，覆盖刚刚生成的密钥文件
+>
+> eval $(ssh-agent -s)启动代理，使用ssh-add分别添加私钥到本地，公钥文件就不再添加到github账号的ssh，否则公钥文件内容就不一致了。
+>
+> ssh -T git@hexo
+>
+> ssh -T git@tiddlywiki
+>
+> ssh -T git@hugo 
+
+
+
+> （装好node.js和git，使用ssh-keygen生成密钥文件之后，如果在当前windows用户目录下没有.ssh文件夹，估计是安装windows时的用户权限不足，不能在用户目录下创建.ssh目录目前没有实践找出好办法，只能重新安装windows，试着获取用户目录所有权和完全控制权也没结果，不知到为何）
