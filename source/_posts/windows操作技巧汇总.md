@@ -2,7 +2,7 @@
 title: windows操作技巧
 date: 2022-04-01 10:56:26
 tags: windows操作技巧
-categories: windows操作技巧
+categories: windows
 ---
 
 ### Winodws操作技巧
