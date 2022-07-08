@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>使用hugo在github中部署静态博客站点</title>
+      <link href="/2022/07/08/%E4%BD%BF%E7%94%A8hugo%E5%9C%A8github%E4%B8%AD%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%AB%99%E7%82%B9/"/>
+      <url>/2022/07/08/%E4%BD%BF%E7%94%A8hugo%E5%9C%A8github%E4%B8%AD%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%AB%99%E7%82%B9/</url>
+      
+        <content type="html"><![CDATA[<h4 id="使用静态网站生成器hugo在github上搭建个人博客"><a href="#使用静态网站生成器hugo在github上搭建个人博客" class="headerlink" title="使用静态网站生成器hugo在github上搭建个人博客"></a>使用静态网站生成器hugo在github上搭建个人博客</h4><ul><li><p>下载并安装hugo的windows安装包</p><ul><li><p>这里要说的是，hugo的本地配置相对要简单点。Binary (Cross-platform) </p><p>Download the appropriate version for your platform from <a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a>. Once downloaded, the binary can be run from anywhere. You don’t need to install it into a global location. This works well for shared hosts and other systems where you don’t have a privileged account.</p><p>Ideally, you should install it somewhere in your <code>PATH</code> for easy use. <code>/usr/local/bin</code> is the most probable location.</p><p><a href="https://gohugo.io/getting-started/installing/">Install Hugo | Hugo (gohugo.io)</a></p></li></ul></li><li><p>在cmd窗口下按顺序运行下面的语句：</p><blockquote><p>hugo new site quickstart</p><p>cd quickstart</p><p>git init </p><p>git submodule add <a href="https://github.com/theNewDynamic/gohugo-theme-ananke.git">https://github.com/theNewDynamic/gohugo-theme-ananke.git</a> themes/ananke</p><p>将 theme = ‘ananke’添加到config.toml</p><p>hugo new  posts/my-first-post.md   hugo会在/content/post/目录下建立my-first-post.md文件</p><p>hugo -D   会自动生成静态站点保存在public目录下</p><ul><li><p>站点文档建立并编辑完成之后，如果需要本地打开，则在cmd窗口下运行hugo server -D 启动服务器   Web Server is available at <a href="http://localhost:1313/">http://localhost:1313/</a> (bind address 127.0.0.1) Press Ctrl+C to stop  </p></li><li><p>如果站点发布在github上，把public下的内容复制到提前git clone的hugo站点目录下</p></li></ul><blockquote><p>git add .</p><p>git commit  -m “hugo”  (如果出现不识别的用户信息，则是因为重新git clone了项目，需要再次配置用户名和邮箱信息：git config  user.name     &gt; name    git config user.email.yourmailbox)</p><p>git  push origin</p><p><a href="http://username.gihtub.io就可以在网页中打开发布在github上的静态网页/">http://username.gihtub.io就可以在网页中打开发布在github上的静态网页</a></p></blockquote></blockquote></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> hugo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hugo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>获取windows文件夹的权限</title>
       <link href="/2022/07/08/%E8%8E%B7%E5%8F%96windows%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E6%9D%83%E9%99%90/"/>
       <url>/2022/07/08/%E8%8E%B7%E5%8F%96windows%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E6%9D%83%E9%99%90/</url>
@@ -2046,7 +2071,7 @@
       <link href="/2021/06/08/Hexo%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2%E5%88%B0coding/"/>
       <url>/2021/06/08/Hexo%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2%E5%88%B0coding/</url>
       
-        <content type="html"><![CDATA[<h2 id="把Hexo生成的静态网页部署到coding上"><a href="#把Hexo生成的静态网页部署到coding上" class="headerlink" title="把Hexo生成的静态网页部署到coding上"></a>把Hexo生成的静态网页部署到coding上</h2><p>因为github的网速问题，可以尝试把hexo生成的静态博客文件发布到coding上。</p><ul><li>首先注册coding账号(<a href="https://coding.net/">CODING - 一站式软件研发管理平台</a>)，并绑定腾讯云（需要实名认证）</li><li>新建5人以下团队的项目</li><li>新建代码仓库(选择devops)，可以选择添加readme文件</li><li>点击代码仓库中，在左下角显示项目设置，再选择功能开关，如果不熟悉，可以打开所有功能开关，持续集成和持续部署要选择。</li><li>在本地的git bash 命令窗口下，使用clip &lt; id_ed25519.pub ，把公钥的内容输出到剪贴板，在coding的个人账户设置里，添加公钥内容并保存。使用ssh -T  <a href="mailto:&#103;&#105;&#x74;&#64;&#99;&#111;&#x64;&#x69;&#x6e;&#103;&#x2e;&#110;&#101;&#x74;">&#103;&#105;&#x74;&#64;&#99;&#111;&#x64;&#x69;&#x6e;&#103;&#x2e;&#110;&#101;&#x74;</a>  测试ssh协议链接。</li><li> 编辑hexo博客项目根目录下的_config.yml文件，把deployer段的内容修改下面的内容：</li></ul><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@e.coding.net:username/myblog/hexoblog.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span>  </span><br><span class="line"></span><br></pre></td></tr></table></figure><ul><li>hexo g -d   发布到coding腾讯云空间</li><li>部署成功后，设置自定义以域名</li></ul><h3 id="部署在coding的静态网站的收费标准"><a href="#部署在coding的静态网站的收费标准" class="headerlink" title="部署在coding的静态网站的收费标准"></a>部署在coding的静态网站的收费标准</h3><ul><li>有6个月的免费试用期，后期应该是要收取费用的，具体可以查看coding 官方的资费明细</li></ul><h3 id="自动部署"><a href="#自动部署" class="headerlink" title="自动部署"></a>自动部署</h3><p>也可以实现自动部署博客到coding</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="把Hexo生成的静态网页部署到coding上"><a href="#把Hexo生成的静态网页部署到coding上" class="headerlink" title="把Hexo生成的静态网页部署到coding上"></a>把Hexo生成的静态网页部署到coding上</h2><p>因为github的网速问题，可以尝试把hexo生成的静态博客文件发布到coding上。</p><ul><li>首先注册coding账号(<a href="https://coding.net/">CODING - 一站式软件研发管理平台</a>)，并绑定腾讯云（需要实名认证）</li><li>新建5人以下团队的项目</li><li>新建代码仓库(选择devops)，可以选择添加readme文件</li><li>点击代码仓库中，在左下角显示项目设置，再选择功能开关，如果不熟悉，可以打开所有功能开关，持续集成和持续部署要选择。</li><li>在本地的git bash 命令窗口下，使用clip &lt; id_ed25519.pub ，把公钥的内容输出到剪贴板，在coding的个人账户设置里，添加公钥内容并保存。使用ssh -T  <a href="mailto:&#103;&#x69;&#x74;&#64;&#x63;&#111;&#x64;&#105;&#x6e;&#103;&#46;&#110;&#101;&#x74;">&#103;&#x69;&#x74;&#64;&#x63;&#111;&#x64;&#105;&#x6e;&#103;&#46;&#110;&#101;&#x74;</a>  测试ssh协议链接。</li><li> 编辑hexo博客项目根目录下的_config.yml文件，把deployer段的内容修改下面的内容：</li></ul><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@e.coding.net:username/myblog/hexoblog.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span>  </span><br><span class="line"></span><br></pre></td></tr></table></figure><ul><li>hexo g -d   发布到coding腾讯云空间</li><li>部署成功后，设置自定义以域名</li></ul><h3 id="部署在coding的静态网站的收费标准"><a href="#部署在coding的静态网站的收费标准" class="headerlink" title="部署在coding的静态网站的收费标准"></a>部署在coding的静态网站的收费标准</h3><ul><li>有6个月的免费试用期，后期应该是要收取费用的，具体可以查看coding 官方的资费明细</li></ul><h3 id="自动部署"><a href="#自动部署" class="headerlink" title="自动部署"></a>自动部署</h3><p>也可以实现自动部署博客到coding</p>]]></content>
       
       
       
@@ -2116,7 +2141,7 @@
       <link href="/2021/05/28/git%E5%91%BD%E4%BB%A4%E5%85%A5%E9%97%A8/"/>
       <url>/2021/05/28/git%E5%91%BD%E4%BB%A4%E5%85%A5%E9%97%A8/</url>
       
-        <content type="html"><![CDATA[<ul><li><p>新建一个目录 branch_demo</p></li><li><p>cd branch_demo</p></li><li><p>git init </p></li><li><p>git status </p></li><li><p>git checkout -b branch-name</p></li><li><p>echo “git branch start” &gt;&gt; readme.md</p></li><li><p>git add .</p></li><li><p>git commit -m “git branch start”</p></li><li><p>git remote add origin <a href="https://github.com/usermame.github.io.git">https://github.com/usermame.github.io.git</a>    or    git remote add origin <a href="mailto:&#103;&#105;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#x62;&#x2e;&#99;&#111;&#109;">&#103;&#105;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#x62;&#x2e;&#99;&#111;&#109;</a>:username.github.io.git</p></li><li><p>git push -u origin    —-新建分支第一次推送到远程时，需要-u参数指明上游，或者使用–set-upstream,以后再推送就不需要-u参数了</p></li><li><p>长时间不玩git了,居然忘记了如何与github.com端的仓库通讯，这里做个简单的备忘：</p><ul><li><p>git remote -v  </p><p><img src="/images/git-github%E8%BF%9E%E6%8E%A5%E6%96%B9%E5%BC%8F%E6%9F%A5%E8%AF%A2.png" alt="img"></p></li></ul></li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li><p>新建一个目录 branch_demo</p></li><li><p>cd branch_demo</p></li><li><p>git init </p></li><li><p>git status </p></li><li><p>git checkout -b branch-name</p></li><li><p>echo “git branch start” &gt;&gt; readme.md</p></li><li><p>git add .</p></li><li><p>git commit -m “git branch start”</p></li><li><p>git remote add origin <a href="https://github.com/usermame.github.io.git">https://github.com/usermame.github.io.git</a>    or    git remote add origin <a href="mailto:&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#116;&#104;&#117;&#x62;&#46;&#99;&#111;&#x6d;">&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#116;&#104;&#117;&#x62;&#46;&#99;&#111;&#x6d;</a>:username.github.io.git</p></li><li><p>git push -u origin    —-新建分支第一次推送到远程时，需要-u参数指明上游，或者使用–set-upstream,以后再推送就不需要-u参数了</p></li><li><p>长时间不玩git了,居然忘记了如何与github.com端的仓库通讯，这里做个简单的备忘：</p><ul><li><p>git remote -v  </p><p><img src="/images/git-github%E8%BF%9E%E6%8E%A5%E6%96%B9%E5%BC%8F%E6%9F%A5%E8%AF%A2.png" alt="img"></p></li></ul></li></ul>]]></content>
       
       
       <categories>
