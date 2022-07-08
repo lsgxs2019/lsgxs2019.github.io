@@ -16,6 +16,8 @@ categories: hugo
     Ideally, you should install it somewhere in your `PATH` for easy use. `/usr/local/bin` is the most probable location.
 
     [Install Hugo | Hugo (gohugo.io)](https://gohugo.io/getting-started/installing/)
+    
+    <!--more-->
 
 * 在cmd窗口下按顺序运行下面的语句：
 
