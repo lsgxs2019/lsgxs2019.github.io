@@ -46,3 +46,5 @@ categories: hugo
   > > git  push origin
   > >
   > > http://username.gihtub.io就可以在网页中打开发布在github上的静态网页
+  > >
+  > > （备注：最好先使用git clone把github上的hugo静态站点仓库下载到本地，最后提交的的时候简单点，直接使用git push origin 就可以了。否则要按照本地新建仓库关联到远程hugo静态站点仓库的方法，有点麻烦）
