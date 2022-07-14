@@ -1,5 +1,5 @@
 ---
-title: 在github中删除仓库并建立一个空的仓库
+title: 在github中新建一个仓库
 date: 2022-07-14 06:44:15
 tags: 
   - 删除仓库
