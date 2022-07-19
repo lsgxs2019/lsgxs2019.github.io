@@ -1,7 +1,7 @@
 ---
 title: todolist
 date: 2022-03-07 22:08:53
-tags: todo
+tags: todolist
 categories: todo
 cover: /2022/03/07/todolist/todolist.jpg
 ---
