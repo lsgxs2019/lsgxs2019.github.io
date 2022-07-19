@@ -14,7 +14,6 @@ categories: 去广告
   <!--more-->
 
   ![img](/images/tampermonkey.jpg)
-
   
 
 * tampermonkey是一款脚本的管理器，可以在[Greasy Fork - 安全、实用的用户脚本大全](https://greasyfork.org/zh-CN/)上搜索【百度去广告】的插件,安装脚本后启用就可以实现搜索时去广告。
@@ -23,7 +22,7 @@ categories: 去广告
 
   ![img](/images/GreasyFork2.jpg)
 
-  ![img](/images/GreasFork3.jpg)
+  ![img](/images/GreasyFork3.jpg)
   
   
   
