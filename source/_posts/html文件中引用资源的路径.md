@@ -6,8 +6,8 @@ tags:
   - 前端
 categories: html
 toc: true
-cover: /2022/07/22/html文件中引用资源的路径/html-file-path.jpg
-thumbnail: /2022/07/22/html文件中引用资源的路径/html-file-path.jpg
+cover: /2022/07/22/html文件中引用资源的路径/html-file-path.png
+thumbnail: /2022/07/22/html文件中引用资源的路径/html-file-path.png
 ---
 
 
