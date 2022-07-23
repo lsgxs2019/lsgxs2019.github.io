@@ -15,36 +15,13 @@ Now let's examine how to easily publish your site via GitHub Pages.
 
 3. On this page, in the *Repository name* box, enter *username*.github.io, where *username* is your username. For example, our friend Bob Smith would enter *bobsmith.github.io*. Check the "*Initialize this repository with a README"* box. Then click *Create repository*.![img](/images/github-create-repo.png)
 
-4. Drag and drop the content of your website folder into your repository. Then click
-
-    
-
-   Commit changes
-
+4. Drag and drop the content of your website folder into your repository. Then click   Commit changes
    ![img](/images/github-drag-drop-files.png)
+   
+   > **Note:** Make sure your folder has an `index.html` file.
+   
+5. Navigate your browser to  username .github.io to see your website online. For example, for the username   chrisdavidmills  , go to  *chrisdavidmills*.github.io
 
-   **Note:** Make sure your folder has an `index.html` file.
-
-5. Navigate your browser to
-
-    
-
-   username
-
-   .github.io to see your website online. For example, for the username
-
-    
-
-   chrisdavidmills
-
-   , go to
-
-    
-
-   *chrisdavidmills*.github.io
-
-   .
-
-   **Note:** It may take a few minutes for your website to go live. If your website does not display immediately, wait a few minutes. Try again.
+   > **Note:** It may take a few minutes for your website to go live. If your website does not display immediately, wait a few minutes. Try again.
 
 To learn more, see [GitHub Pages Help](https://docs.github.com/en/pages/getting-started-with-github-pages).
