@@ -18,7 +18,7 @@ This article discusses Uniform Resource Locators (URLs), explaining what they ar
 | :------------- | ------------------------------------------------------------ |
 | Objective:     | You will learn what a URL is and how it works on the Web.    |
 
-
+<!--more-->
 
 ## [Summary](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL#summary)
 
