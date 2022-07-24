@@ -7,7 +7,7 @@ cover: /2022/07/24/about-MDN-web-docs/mdn-docs.png
 thumbnail: /2022/07/24/about-MDN-web-docs/mdn-docs.png
 ---
 
-> [About MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/About) by MDN contributors  is licensed under CC-BY-SA 2.5
+> [About MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/About) by MDN contributors is licensed under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 
 # About MDN Web Docs
 
