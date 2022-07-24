@@ -7,7 +7,18 @@ cover: /2022/07/24/basics-of-URL/mdn-url.png
 thumbnail: /2022/07/24/basics-of-URL/mdn-url.png
 ---
 
-> from: [What is a URL? - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
+> [What is a URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL) by [ MDN contributors](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL/contributors.txt)  is licensed under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+
+
+# What is a URL?
+
+This article discusses Uniform Resource Locators (URLs), explaining what they are and how they're structured.
+
+| Prerequisites: | You need to first know [how the Internet works](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work), [what a Web server is](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) and [the concepts behind links on the web](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_hyperlinks). |
+| :------------- | ------------------------------------------------------------ |
+| Objective:     | You will learn what a URL is and how it works on the Web.    |
+
+
 
 ## [Summary](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL#summary)
 
@@ -15,11 +26,18 @@ With [Hypertext](https://developer.mozilla.org/en-US/docs/Glossary/Hypertext) an
 
 **URL** stands for *Uniform Resource Locator*. A URL is nothing more than the address of a given unique resource on the Web. In theory, each valid URL points to a unique resource. Such resources can be an HTML page, a CSS document, an image, etc. In practice, there are some exceptions, the most common being a URL pointing to a resource that no longer exists or that has moved. As the resource represented by the URL and the URL itself are handled by the Web server, it is up to the owner of the web server to carefully manage that resource and its associated URL.
 
-# What is a URL?
+## [Basics: anatomy of a URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL#basics_anatomy_of_a_url)
 
-This article discusses Uniform Resource Locators (URLs), explaining what they are and how they're structured.
+Here are some examples of URLs:
 
-<!--more-->
+```
+https://developer.mozilla.org
+https://developer.mozilla.org/en-US/docs/Learn/
+https://developer.mozilla.org/en-US/search?q=URL
+```
+
+Any of those URLs can be typed into your browser's address bar to tell it to load the associated page (resource).
+
 
 A URL is composed of different parts, some mandatory and others optional. The most important parts are highlighted on the URL below (details are provided in the following sections):
 
@@ -117,3 +135,8 @@ Linguistic semantics are of course irrelevant to computers. You've probably ofte
 - It is easier for you to manipulate them.
 - It clarifies things for users in terms of where they are, what they're doing, what they're reading or interacting with on the Web.
 - Some search engines can use those semantics to improve the classification of the associated pages.
+
+
+
+
+
