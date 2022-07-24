@@ -10,7 +10,7 @@ cover: /2022/07/22/html文件中引用资源的路径/html-file-path.png
 thumbnail: /2022/07/22/html文件中引用资源的路径/html-file-path.png
 ---
 
-
+> #### [Dealing with files](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files) by  MDN contributors is licensed under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 
 #### html文件中引用图片等文件的路径
 
