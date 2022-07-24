@@ -3,7 +3,6 @@ title: about MDN web docs
 date: 2022-07-24 17:33:40
 tags: MDN
 categories: web
-cover: /2022/07/24/about-MDN-web-docs/mdn-docs.png
 thumbnail: /2022/07/24/about-MDN-web-docs/mdn-docs.png
 ---
 

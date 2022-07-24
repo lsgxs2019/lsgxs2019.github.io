@@ -3,7 +3,6 @@ title: basics of URL
 date: 2022-07-24 16:22:55
 tags: URL
 categories: web
-cover: /2022/07/24/basics-of-URL/mdn-url.png
 thumbnail: /2022/07/24/basics-of-URL/mdn-url.png
 ---
 
