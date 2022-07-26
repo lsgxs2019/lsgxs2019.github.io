@@ -4,6 +4,7 @@ date: 2022-07-22 07:32:43
 tags: 
   - html
   - 前端
+  - url
 categories: html
 toc: true
 cover: /2022/07/22/html文件中引用资源的路径/html-file-path.png
@@ -61,12 +62,17 @@ Some general rules for file paths:
 
 - To link to a target file in the same directory as the invoking HTML file, just use the filename, e.g. `my-image.jpg`.
   * 同目录直接书写文件名称
+  
 - To reference a file in a subdirectory, write the directory name in front of the path, plus a forward slash, e.g. `subdirectory/my-image.jpg`.
   * 资源在该html文件的子目录，书写子目录及文件路径
+  
 - To link to a target file in the directory **above** the invoking HTML file, write two dots. So for example, if `index.html` was inside a subfolder of `test-site` and `my-image.jpg` was inside `test-site`, you could reference `my-image.jpg` from `index.html` using `../my-image.jpg`.
   * 图片等资源在html文件的上一级目录，使用../filename.jpg
+  
 - You can combine these as much as you like, for example `../subdirectory/another-subdirectory/my-image.jpg`.
-  * 可以使用../组合任意的子目录
+  * 可以使用../组合任意的子目录，实际上就是你在cmd窗口下使用cd命令切换目录的路线图。比如：
+  
+    > You can combine multiple instances of these features into complex URLs, if needed, for example: `../../../complex/path/to/my/file.html`
 
 For now, this is about all you need to know.
 
