@@ -5,11 +5,11 @@ tags:
  - hyperlinks
  - html
 categories: html
-cover: /2022/07/28/creating-hyperlink/updated-bbc-website.png
+cover: 
 thumbnail: /2022/07/28/creating-hyperlink/updated-bbc-website.png
 ---
 
-> [Creating hyperlinks]([Creating hyperlinks - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)) by MDN contributors is  is licensed under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+> [Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) by MDN contributors is  is licensed under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 
 # Creating hyperlinks
 
