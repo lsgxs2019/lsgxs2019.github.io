@@ -5,8 +5,8 @@ tags:
  - hyperlinks
  - html
 categories: html
-cover: //2022/07/28/creating-hyper-link/updated-bbc-links.png
-thumbnail: /2022/07/28/creating-hyper-link/updated-bbc-links.png
+cover: //2022/07/28/creating-hyperlink/updated-bbc-website.png
+thumbnail: /2022/07/28/creating-hyperlink/updated-bbc-website.png
 ---
 
 > [Creating hyperlinks]([Creating hyperlinks - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)) by MDN contributors is  is licensed under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
