@@ -5,7 +5,7 @@ tags:
  - hyperlinks
  - html
 categories: html
-cover: //2022/07/28/creating-hyperlink/updated-bbc-website.png
+cover: /2022/07/28/creating-hyperlink/updated-bbc-website.png
 thumbnail: /2022/07/28/creating-hyperlink/updated-bbc-website.png
 ---
 
