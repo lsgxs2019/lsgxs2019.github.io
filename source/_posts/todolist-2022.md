@@ -14,5 +14,7 @@ categories: todolist
 * [Creating hyperlinks - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
 * [Test your skills: Links - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Test_your_skills:_Links)
 * [HTML text fundamentals - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
+* [How to use Chrome as a Code Editor and Debugger (openreplay.com)](https://blog.openreplay.com/how-to-use-chrome-as-a-code-editor-and-debugger)
+* [React技术揭秘 (iamkasong.com)](https://react.iamkasong.com/#章节列表)
 * **漫步华尔街**
   * 股市的总体走势是向上的，而短期的走势却是难以预测的。因此，**最好的投资方式就是选定好的指数基金定投**
