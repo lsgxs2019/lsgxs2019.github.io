@@ -13,7 +13,7 @@ thumbnail:
 ---
 
 
->  [The web and web standards]([The web and web standards - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards)) by MDN contributors is licensed under [CC-BY-SA v2.5 ](https://creativecommons.org/licenses/by-sa/2.5/) 
+>  [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards) by MDN contributors is licensed under [CC-BY-SA v2.5 ](https://creativecommons.org/licenses/by-sa/2.5/) 
 > **Overview of modern web technologies **
 
 
