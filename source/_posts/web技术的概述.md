@@ -14,7 +14,6 @@ thumbnail:
 
 
 >  [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards) by MDN contributors is licensed under [CC-BY-SA v2.5 ](https://creativecommons.org/licenses/by-sa/2.5/) 
-> **Overview of modern web technologies **
 
 
 
