@@ -20,6 +20,7 @@ categories: todolist
 * [Front-end web developer - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
 * [Multimedia and embedding - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding)
 * [Video and audio content - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
+* [Responsive images - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 * [How to use Chrome as a Code Editor and Debugger (openreplay.com)](https://blog.openreplay.com/how-to-use-chrome-as-a-code-editor-and-debugger)
 * [React技术揭秘 (iamkasong.com)](https://react.iamkasong.com/#章节列表)
 * **漫步华尔街**
