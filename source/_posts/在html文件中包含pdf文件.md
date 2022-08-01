@@ -16,7 +16,7 @@ thumbnail:
 ```
 <object data="pdfname.pdf" type="application/pdf"
         width="1000" height="1500">
-  <p>You don't have a PDF plugin, but you can
+  <p> 如果没有PDF相关的插件， 可以下载这个PDF文档
     <a href="pdfname.pdf"> download the PDF file. </a>
   </p>
 </object>
