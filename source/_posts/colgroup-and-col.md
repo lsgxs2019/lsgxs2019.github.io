@@ -7,7 +7,7 @@ categories: html
   
 ---
 
->  [HTML table basics - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)) by MDN contributors is licensed  under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+>  [HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) by MDN contributors is licensed  under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 
 ### [Active learning: colgroup and col](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#active_learning_colgroup_and_col)
 
